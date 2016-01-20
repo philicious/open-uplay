@@ -4,6 +4,52 @@
 #include "stdafx.h"
 #include "uPlay Emu-v1.h"
 
+#define __int8 char
+#define __int16 short
+#define __int32 int
+#define __int64 long long
+struct tagLC_ID;
+struct threadlocaleinfostruct;
+typedef threadlocaleinfostruct *pthreadlocinfo;
+typedef tagLC_ID LC_ID;
+typedef struct threadmbcinfostruct *pthreadmbcinfo;
+
+struct __lc_time_data;
+struct tagLC_ID
+{
+	unsigned __int16 wLanguage;
+	unsigned __int16 wCountry;
+	unsigned __int16 wCodePage;
+};
+struct $F0551D0CB09E7A078CAEF7CAC43D74C7
+{
+	char *locale;
+	wchar_t *wlocale;
+	int *refcount;
+	int *wrefcount;
+};
+struct threadlocaleinfostruct
+{
+	int refcount;
+	unsigned int lc_codepage;
+	unsigned int lc_collate_cp;
+	unsigned __int32 lc_handle[6];
+	LC_ID lc_id[6];
+	$F0551D0CB09E7A078CAEF7CAC43D74C7 lc_category[6];
+	int lc_clike;
+	int mb_cur_max;
+	int *lconv_intl_refcount;
+	int *lconv_num_refcount;
+	int *lconv_mon_refcount;
+	struct lconv *lconv;
+	int *ctype1_refcount;
+	unsigned __int16 *ctype1;
+	const unsigned __int16 *pctype;
+	const unsigned __int8 *pclmap;
+	const unsigned __int8 *pcumap;
+	__lc_time_data *lc_time_curr;
+};
+
 
 UPLAY BOOL __cdecl UPLAY_USER_IsOwned(int a1)
 {
