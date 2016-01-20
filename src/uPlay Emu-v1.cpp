@@ -824,3 +824,517 @@ UPLAY BOOL __cdecl UPLAY_SAVE_GetSavegames_0(int a1, int a2)
 	*/
 	return false;
 }
+
+UPLAY int __cdecl UPLAY_PARTY_Init(int a1)
+{
+	//return UPLAY_PARTY_Init_0(a1);
+	return 0;
+}
+
+UPLAY int __cdecl UPLAY_PARTY_GetInGameMemberList(int a1)
+{
+	//return UPLAY_PARTY_GetInGameMemberList_0(a1);
+	return 0;
+}
+
+UPLAY int UPLAY_PARTY_GetId()
+{
+	//return UPLAY_PARTY_GetId_0();
+	return 0;
+}
+
+UPLAY int __cdecl UPLAY_PARTY_InviteToParty(void *a1, int a2)
+{
+	//return UPLAY_PARTY_InviteToParty_0(a1, a2);
+	return 0;
+}
+
+UPLAY int __cdecl UPLAY_PARTY_InvitePartyToGame(int a1)
+{
+	//return UPLAY_PARTY_InvitePartyToGame_0(a1);
+	return 1;
+}
+
+UPLAY int __cdecl UPLAY_PARTY_ShowGameInviteOverlayUI(int a1)
+{
+	//return UPLAY_PARTY_ShowGameInviteOverlayUI_0(a1);
+	return 0;
+}
+
+UPLAY int __cdecl UPLAY_PARTY_IsInParty(int a1)
+{
+	//return UPLAY_PARTY_IsInParty_0(a1);
+	return 0;
+}
+
+UPLAY int __cdecl UPLAY_PARTY_IsPartyLeader(int a1)
+{
+	//return UPLAY_PARTY_IsPartyLeader_0(a1);
+	return 0;
+}
+
+UPLAY int __cdecl UPLAY_PARTY_PromoteToLeader(int a1, int a2)
+{
+	//return UPLAY_PARTY_PromoteToLeader_0(a1, a2);
+	return 0;
+}
+
+UPLAY int __cdecl UPLAY_PARTY_EnablePartyMemberMenuItem(int a1, int a2, int a3)
+{
+	//return UPLAY_PARTY_EnablePartyMemberMenuItem_0(a1, a2, a3);
+	return 0;
+}
+
+UPLAY int __cdecl UPLAY_PARTY_SetGuest(int a1, int a2)
+{
+	//return UPLAY_PARTY_SetGuest_0(a1, a2);
+	return 0;
+}
+
+UPLAY int __cdecl UPLAY_PARTY_SetUserData(int a1)
+{
+	//return UPLAY_PARTY_SetUserData_0(a1);
+	return 0;
+}
+
+UPLAY int __cdecl UPLAY_PARTY_GetFullMemberList(int a1)
+{
+	//return UPLAY_PARTY_GetFullMemberList_0(a1);
+	return 0;
+}
+
+UPLAY int __cdecl UPLAY_PARTY_DisablePartyMemberMenuItem(int a1)
+{
+	//return UPLAY_PARTY_DisablePartyMemberMenuItem_0(a1);
+	return 0;
+}
+
+UPLAY int __cdecl UPLAY_PARTY_RespondToGameInvite(int a1, int a2)
+{
+	//return UPLAY_PARTY_RespondToGameInvite_0(a1, a2);
+	return 0;
+}
+
+UPLAY int __cdecl UPLAY_PARTY_InviteToParty_0(void *a1, int a2)
+{
+	/*
+	int v2; // ecx@1
+	int v3; // esi@1
+	char v5; // [sp+4h] [bp-48h]@1
+	int v6; // [sp+8h] [bp-44h]@1
+	char v7; // [sp+Ch] [bp-40h]@1
+
+	sub_10070320(a1, -1);
+	sub_10003E40();
+	v2 = *(_DWORD *)sub_100032F1(&v5);
+	sub_100040CF(&v7, a2);
+	v3 = v6;
+	if (v6)
+	{
+		if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v6 + 4), 0xFFFFFFFF))
+		{
+			(**(void(__thiscall ***)(_DWORD))v3)(v3);
+			if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v3 + 8), 0xFFFFFFFF))
+				(*(void(__thiscall **)(int))(*(_DWORD *)v3 + 4))(v3);
+		}
+	}
+	sub_1006EDF0(&v7);
+	return 1;
+	*/
+	return 1;
+}
+
+UPLAY BOOL __cdecl UPLAY_PARTY_RespondToGameInvite_0(int a1, char a2)
+{
+	/*
+	int v2; // eax@1
+	char v3; // al@1
+	int v4; // esi@1
+	char v5; // bl@1
+	char v7; // [sp+8h] [bp-8h]@1
+	int v8; // [sp+Ch] [bp-4h]@1
+
+	sub_10003E40();
+	v2 = *(_DWORD *)sub_100032F1(&v7);
+	v3 = sub_10001401(a1, a2);
+	v4 = v8;
+	v5 = v3;
+	if (v8)
+	{
+		if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v8 + 4), 0xFFFFFFFF))
+		{
+			(**(void(__thiscall ***)(_DWORD))v4)(v4);
+			if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v4 + 8), 0xFFFFFFFF))
+				(*(void(__thiscall **)(int))(*(_DWORD *)v4 + 4))(v4);
+		}
+	}
+	return v5 != 0;
+	*/
+	return false;
+}
+
+UPLAY BOOL __cdecl UPLAY_PARTY_ShowGameInviteOverlayUI_0(char a1)
+{
+	/*
+	int v1; // eax@1
+	char v2; // al@1
+	int v3; // esi@1
+	char v4; // bl@1
+	char v6; // [sp+8h] [bp-8h]@1
+	int v7; // [sp+Ch] [bp-4h]@1
+
+	sub_10003E40();
+	v1 = *(_DWORD *)sub_100032F1(&v6);
+	v2 = sub_10005C9A(a1);
+	v3 = v7;
+	v4 = v2;
+	if (v7)
+	{
+		if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v7 + 4), 0xFFFFFFFF))
+		{
+			(**(void(__thiscall ***)(_DWORD))v3)(v3);
+			if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v3 + 8), 0xFFFFFFFF))
+				(*(void(__thiscall **)(int))(*(_DWORD *)v3 + 4))(v3);
+		}
+	}
+	return v4 != 0;
+	*/
+	return false;
+}
+
+UPLAY signed int __cdecl UPLAY_PARTY_GetInGameMemberList_0(int a1)
+{
+	/*
+	int v1; // ecx@1
+	int v2; // esi@1
+	char v4; // [sp+4h] [bp-8h]@1
+	int v5; // [sp+8h] [bp-4h]@1
+
+	sub_10003E40();
+	v1 = *(_DWORD *)sub_100032F1(&v4);
+	sub_100013CA(a1, 0);
+	v2 = v5;
+	if (v5)
+	{
+		if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v5 + 4), 0xFFFFFFFF))
+		{
+			(**(void(__thiscall ***)(_DWORD))v2)(v2);
+			if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v2 + 8), 0xFFFFFFFF))
+				(*(void(__thiscall **)(int))(*(_DWORD *)v2 + 4))(v2);
+		}
+	}
+	return 1;
+	*/
+	return 1;
+}
+
+UPLAY signed int __cdecl UPLAY_PARTY_GetFullMemberList_0(int a1)
+{
+	/*
+	int v1; // ecx@1
+	int v2; // esi@1
+	char v4; // [sp+4h] [bp-8h]@1
+	int v5; // [sp+8h] [bp-4h]@1
+
+	sub_10003E40();
+	v1 = *(_DWORD *)sub_100032F1(&v4);
+	sub_100013CA(a1, 1);
+	v2 = v5;
+	if (v5)
+	{
+		if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v5 + 4), 0xFFFFFFFF))
+		{
+			(**(void(__thiscall ***)(_DWORD))v2)(v2);
+			if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v2 + 8), 0xFFFFFFFF))
+				(*(void(__thiscall **)(int))(*(_DWORD *)v2 + 4))(v2);
+		}
+	}
+	return 1;
+	*/
+	return 1;
+}
+
+UPLAY BOOL __cdecl UPLAY_PARTY_SetUserData_0(int a1)
+{
+	/*
+	int v1; // eax@1
+	char v2; // al@1
+	int v3; // esi@1
+	char v4; // bl@1
+	char v6; // [sp+8h] [bp-8h]@1
+	int v7; // [sp+Ch] [bp-4h]@1
+
+	sub_10003E40();
+	v1 = *(_DWORD *)sub_100032F1(&v6);
+	v2 = sub_10002CED(a1);
+	v3 = v7;
+	v4 = v2;
+	if (v7)
+	{
+		if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v7 + 4), 0xFFFFFFFF))
+		{
+			(**(void(__thiscall ***)(_DWORD))v3)(v3);
+			if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v3 + 8), 0xFFFFFFFF))
+				(*(void(__thiscall **)(int))(*(_DWORD *)v3 + 4))(v3);
+		}
+	}
+	return v4 != 0;
+	*/
+	return true;
+}
+
+UPLAY bool __cdecl UPLAY_PARTY_IsInParty_0(void *a1)
+{
+	/*
+	int v1; // eax@1
+	char v2; // al@1
+	int v3; // esi@1
+	char v4; // bl@1
+	char v6; // [sp+8h] [bp-8h]@1
+	int v7; // [sp+Ch] [bp-4h]@1
+
+	sub_10003E40();
+	v1 = *(_DWORD *)sub_100032F1(&v6);
+	v2 = sub_1000233D(a1);
+	v3 = v7;
+	v4 = v2;
+	if (v7)
+	{
+		if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v7 + 4), 0xFFFFFFFF))
+		{
+			(**(void(__thiscall ***)(_DWORD))v3)(v3);
+			if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v3 + 8), 0xFFFFFFFF))
+				(*(void(__thiscall **)(int))(*(_DWORD *)v3 + 4))(v3);
+		}
+	}
+	return v4 != 0;
+	*/
+	return false;
+}
+
+UPLAY bool __cdecl UPLAY_PARTY_IsPartyLeader_0(void *a1)
+{
+	/*
+	int v1; // eax@1
+	char v2; // al@1
+	int v3; // esi@1
+	char v4; // bl@1
+	char v6; // [sp+8h] [bp-8h]@1
+	int v7; // [sp+Ch] [bp-4h]@1
+
+	sub_10003E40();
+	v1 = *(_DWORD *)sub_100032F1(&v6);
+	v2 = sub_10002E00(a1);
+	v3 = v7;
+	v4 = v2;
+	if (v7)
+	{
+		if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v7 + 4), 0xFFFFFFFF))
+		{
+			(**(void(__thiscall ***)(_DWORD))v3)(v3);
+			if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v3 + 8), 0xFFFFFFFF))
+				(*(void(__thiscall **)(int))(*(_DWORD *)v3 + 4))(v3);
+		}
+	}
+	return v4 != 0;
+	*/
+	return false;
+}
+
+UPLAY BOOL __cdecl UPLAY_PARTY_PromoteToLeader_0(int a1, int a2)
+{
+	/*
+	int v2; // eax@1
+	char v3; // al@1
+	int v4; // esi@1
+	char v5; // bl@1
+	char v7; // [sp+8h] [bp-8h]@1
+	int v8; // [sp+Ch] [bp-4h]@1
+
+	sub_10003E40();
+	v2 = *(_DWORD *)sub_100032F1(&v7);
+	v3 = sub_10002009(a1, a2);
+	v4 = v8;
+	v5 = v3;
+	if (v8)
+	{
+		if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v8 + 4), 0xFFFFFFFF))
+		{
+			(**(void(__thiscall ***)(_DWORD))v4)(v4);
+			if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v4 + 8), 0xFFFFFFFF))
+				(*(void(__thiscall **)(int))(*(_DWORD *)v4 + 4))(v4);
+		}
+	}
+	return v5 != 0;
+	*/
+	return false;
+}
+
+UPLAY BOOL __cdecl UPLAY_PARTY_InvitePartyToGame_0(int a1)
+{
+	/*
+	int v1; // eax@1
+	char v2; // al@1
+	int v3; // esi@1
+	char v4; // bl@1
+	char v6; // [sp+8h] [bp-8h]@1
+	int v7; // [sp+Ch] [bp-4h]@1
+
+	sub_10003E40();
+	v1 = *(_DWORD *)sub_100032F1(&v6);
+	v2 = sub_100025EF(a1);
+	v3 = v7;
+	v4 = v2;
+	if (v7)
+	{
+		if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v7 + 4), 0xFFFFFFFF))
+		{
+			(**(void(__thiscall ***)(_DWORD))v3)(v3);
+			if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v3 + 8), 0xFFFFFFFF))
+				(*(void(__thiscall **)(int))(*(_DWORD *)v3 + 4))(v3);
+		}
+	}
+	return v4 != 0;
+	*/
+	return false;
+}
+
+UPLAY BOOL __cdecl UPLAY_PARTY_EnablePartyMemberMenuItem_0(int a1, int a2, int a3)
+{
+	/*
+	int v3; // eax@1
+	char v4; // al@1
+	int v5; // esi@1
+	char v6; // bl@1
+	char v8; // [sp+8h] [bp-8h]@1
+	int v9; // [sp+Ch] [bp-4h]@1
+
+	sub_10003E40();
+	v3 = *(_DWORD *)sub_100032F1(&v8);
+	v4 = sub_10004746(a1, a2, a3);
+	v5 = v9;
+	v6 = v4;
+	if (v9)
+	{
+		if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v9 + 4), 0xFFFFFFFF))
+		{
+			(**(void(__thiscall ***)(_DWORD))v5)(v5);
+			if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v5 + 8), 0xFFFFFFFF))
+				(*(void(__thiscall **)(int))(*(_DWORD *)v5 + 4))(v5);
+		}
+	}
+	return v6 != 0;
+	*/
+	return false;
+}
+
+UPLAY BOOL __cdecl UPLAY_PARTY_DisablePartyMemberMenuItem_0(int a1)
+{
+	/*
+	int v1; // eax@1
+	char v2; // al@1
+	int v3; // esi@1
+	char v4; // bl@1
+	char v6; // [sp+8h] [bp-8h]@1
+	int v7; // [sp+Ch] [bp-4h]@1
+
+	sub_10003E40();
+	v1 = *(_DWORD *)sub_100032F1(&v6);
+	v2 = sub_100047F5(a1);
+	v3 = v7;
+	v4 = v2;
+	if (v7)
+	{
+		if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v7 + 4), 0xFFFFFFFF))
+		{
+			(**(void(__thiscall ***)(_DWORD))v3)(v3);
+			if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v3 + 8), 0xFFFFFFFF))
+				(*(void(__thiscall **)(int))(*(_DWORD *)v3 + 4))(v3);
+		}
+	}
+	return v4 != 0;
+	*/
+	return true;
+}
+
+UPLAY BOOL __cdecl UPLAY_PARTY_SetGuest_0(int a1, int a2)
+{
+	/*
+	int v2; // eax@1
+	char v3; // al@1
+	int v4; // esi@1
+	char v5; // bl@1
+	char v7; // [sp+8h] [bp-8h]@1
+	int v8; // [sp+Ch] [bp-4h]@1
+
+	sub_10003E40();
+	v2 = *(_DWORD *)sub_100032F1(&v7);
+	v3 = sub_100042A0(a1, a2);
+	v4 = v8;
+	v5 = v3;
+	if (v8)
+	{
+		if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v8 + 4), 0xFFFFFFFF))
+		{
+			(**(void(__thiscall ***)(_DWORD))v4)(v4);
+			if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v4 + 8), 0xFFFFFFFF))
+				(*(void(__thiscall **)(int))(*(_DWORD *)v4 + 4))(v4);
+		}
+	}
+	return v5 != 0;
+	*/
+	return false;
+}
+
+UPLAY int UPLAY_PARTY_GetId_0()
+{
+	/*
+	_DWORD *v0; // eax@1
+	int result; // eax@1
+	int v2; // esi@1
+	int v3; // edi@1
+	char v4; // [sp+Ch] [bp-8h]@1
+	int v5; // [sp+10h] [bp-4h]@1
+
+	sub_10003E40();
+	v0 = (_DWORD *)sub_100032F1(&v4);
+	result = sub_1000239C(*v0);
+	v2 = v5;
+	v3 = result;
+	if (v5 && !_InterlockedExchangeAdd((volatile signed __int32 *)(v5 + 4), 0xFFFFFFFF))
+	{
+		(**(void(__thiscall ***)(_DWORD))v2)(v2);
+		if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v2 + 8), 0xFFFFFFFF))
+			(*(void(__thiscall **)(int))(*(_DWORD *)v2 + 4))(v2);
+		result = v3;
+	}
+	return result;
+	*/
+	return 0;
+}
+
+UPLAY signed int __cdecl UPLAY_PARTY_Init_0(int a1)
+{
+	/*
+	int v1; // ecx@1
+	int v2; // esi@1
+	char v4; // [sp+4h] [bp-8h]@1
+	int v5; // [sp+8h] [bp-4h]@1
+
+	sub_10003E40();
+	v1 = *(_DWORD *)sub_100032F1(&v4);
+	sub_10003530(a1);
+	v2 = v5;
+	if (v5)
+	{
+		if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v5 + 4), 0xFFFFFFFF))
+		{
+			(**(void(__thiscall ***)(_DWORD))v2)(v2);
+			if (!_InterlockedExchangeAdd((volatile signed __int32 *)(v2 + 8), 0xFFFFFFFF))
+				(*(void(__thiscall **)(int))(*(_DWORD *)v2 + 4))(v2);
+		}
+	}
+	return 1;
+	*/
+	return 1;
+}
