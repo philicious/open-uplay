@@ -1,0 +1,87 @@
+[Exports]
+vaddr=0x10003409 paddr=0x00002809 ord=000 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_ACH_EarnAchievement
+vaddr=0x100026ad paddr=0x00001aad ord=001 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_ACH_GetAchievementImage
+vaddr=0x100013e3 paddr=0x000007e3 ord=002 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_ACH_GetAchievements
+vaddr=0x100042e6 paddr=0x000036e6 ord=003 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_ACH_Write
+vaddr=0x10004769 paddr=0x00003b69 ord=004 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_AVATAR_Get
+vaddr=0x1000478c paddr=0x00003b8c ord=005 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_AVATAR_GetAvatarIdForCurrentUser
+vaddr=0x10005b69 paddr=0x00004f69 ord=006 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_AVATAR_GetBitmap
+vaddr=0x10003e04 paddr=0x00003204 ord=007 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_ClearGameSession
+vaddr=0x10003deb paddr=0x000031eb ord=008 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_FRIENDS_AddToBlackList
+vaddr=0x10003931 paddr=0x00002d31 ord=009 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_FRIENDS_DisableFriendMenuItem
+vaddr=0x1000429b paddr=0x0000369b ord=010 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_FRIENDS_EnableFriendMenuItem
+vaddr=0x10005f1a paddr=0x0000531a ord=011 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_FRIENDS_GetFriendList
+vaddr=0x10002473 paddr=0x00001873 ord=012 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_FRIENDS_Init
+vaddr=0x10001e42 paddr=0x00001242 ord=013 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_FRIENDS_InviteToGame
+vaddr=0x1000321f paddr=0x0000261f ord=014 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_FRIENDS_IsBlackListed
+vaddr=0x10002e87 paddr=0x00002287 ord=015 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_FRIENDS_IsFriend
+vaddr=0x100041ce paddr=0x000035ce ord=016 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_FRIENDS_RequestFriendship
+vaddr=0x10002ef0 paddr=0x000022f0 ord=017 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_FRIENDS_ShowFriendSelectionUI
+vaddr=0x10002fc2 paddr=0x000023c2 ord=018 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_GetLastError
+vaddr=0x10002513 paddr=0x00001913 ord=019 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_GetNextEvent
+vaddr=0x10003ee0 paddr=0x000032e0 ord=020 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_GetOverlappedOperationResult
+vaddr=0x1000203b paddr=0x0000143b ord=021 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_HasOverlappedOperationCompleted
+vaddr=0x10001e38 paddr=0x00001238 ord=022 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_INSTALLER_AreChunksInstalled
+vaddr=0x10004b1f paddr=0x00003f1f ord=023 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_INSTALLER_GetChunkIdsFromTag
+vaddr=0x100023ec paddr=0x000017ec ord=024 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_INSTALLER_GetLanguageUtf8
+vaddr=0x100052cc paddr=0x000046cc ord=025 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_INSTALLER_Init
+vaddr=0x100057c7 paddr=0x00004bc7 ord=026 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_INSTALLER_ReleaseChunkIdList
+vaddr=0x1000235b paddr=0x0000175b ord=027 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_INSTALLER_UpdateInstallOrder
+vaddr=0x10002923 paddr=0x00001d23 ord=028 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_Init
+vaddr=0x10002cb6 paddr=0x000020b6 ord=029 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_METADATA_ClearContinuousTag
+vaddr=0x1000334b paddr=0x0000274b ord=030 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_METADATA_SetContinuousTag
+vaddr=0x10002d01 paddr=0x00002101 ord=031 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_METADATA_SetSingleEventTag
+vaddr=0x100016cc paddr=0x00000acc ord=032 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_OVERLAY_SetShopUrl
+vaddr=0x10003161 paddr=0x00002561 ord=033 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_OVERLAY_Show
+vaddr=0x10004e99 paddr=0x00004299 ord=034 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_OVERLAY_ShowFacebookAuthentication
+vaddr=0x100058c1 paddr=0x00004cc1 ord=035 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_PARTY_DisablePartyMemberMenuItem
+vaddr=0x10004930 paddr=0x00003d30 ord=036 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_PARTY_EnablePartyMemberMenuItem
+vaddr=0x10005583 paddr=0x00004983 ord=037 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_PARTY_GetFullMemberList
+vaddr=0x10001c9e paddr=0x0000109e ord=038 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_PARTY_GetId
+vaddr=0x1000110e paddr=0x0000050e ord=039 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_PARTY_GetInGameMemberList
+vaddr=0x1000101e paddr=0x0000041e ord=040 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_PARTY_Init
+vaddr=0x1000291e paddr=0x00001d1e ord=041 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_PARTY_InvitePartyToGame
+vaddr=0x10001f5f paddr=0x0000135f ord=042 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_PARTY_InviteToParty
+vaddr=0x100032d3 paddr=0x000026d3 ord=043 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_PARTY_IsInParty
+vaddr=0x10004133 paddr=0x00003533 ord=044 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_PARTY_IsPartyLeader
+vaddr=0x10004912 paddr=0x00003d12 ord=045 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_PARTY_PromoteToLeader
+vaddr=0x10005fab paddr=0x000053ab ord=046 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_PARTY_RespondToGameInvite
+vaddr=0x10004b6a paddr=0x00003f6a ord=047 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_PARTY_SetGuest
+vaddr=0x100050ce paddr=0x000044ce ord=048 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_PARTY_SetUserData
+vaddr=0x10002b67 paddr=0x00001f67 ord=049 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_PARTY_ShowGameInviteOverlayUI
+vaddr=0x10004a84 paddr=0x00003e84 ord=050 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_PeekNextEvent
+vaddr=0x10002991 paddr=0x00001d91 ord=051 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_Quit
+vaddr=0x10001ce4 paddr=0x000010e4 ord=052 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_Release
+vaddr=0x10003d14 paddr=0x00003114 ord=053 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_SAVE_Close
+vaddr=0x10003f62 paddr=0x00003362 ord=054 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_SAVE_GetSavegames
+vaddr=0x10002f8b paddr=0x0000238b ord=055 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_SAVE_Open
+vaddr=0x10001b6d paddr=0x00000f6d ord=056 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_SAVE_Read
+vaddr=0x1000528b paddr=0x0000468b ord=057 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_SAVE_Remove
+vaddr=0x10005556 paddr=0x00004956 ord=058 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_SAVE_SetName
+vaddr=0x10005add paddr=0x00004edd ord=059 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_SAVE_Write
+vaddr=0x10003030 paddr=0x00002430 ord=060 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_SetGameSession
+vaddr=0x100058fd paddr=0x00004cfd ord=061 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_Startup
+vaddr=0x10005c77 paddr=0x00005077 ord=062 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_USER_ClearGameSession
+vaddr=0x10003f99 paddr=0x00003399 ord=063 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_USER_GetAccountId
+vaddr=0x1000479b paddr=0x00003b9b ord=064 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_USER_GetAccountIdUtf8
+vaddr=0x10005b46 paddr=0x00004f46 ord=065 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_USER_GetCdKeyUtf8
+vaddr=0x10002f09 paddr=0x00002309 ord=066 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_USER_GetCdKeys
+vaddr=0x100016a4 paddr=0x00000aa4 ord=067 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_USER_GetCredentials
+vaddr=0x1000305d paddr=0x0000245d ord=068 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_USER_GetEmail
+vaddr=0x10003067 paddr=0x00002467 ord=069 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_USER_GetEmailUtf8
+vaddr=0x10005b14 paddr=0x00004f14 ord=070 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_USER_GetPassword
+vaddr=0x100039f4 paddr=0x00002df4 ord=071 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_USER_GetPasswordUtf8
+vaddr=0x100038c8 paddr=0x00002cc8 ord=072 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_USER_GetTicketUtf8
+vaddr=0x100021d5 paddr=0x000015d5 ord=073 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_USER_GetUsername
+vaddr=0x10003dbe paddr=0x000031be ord=074 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_USER_GetUsernameUtf8
+vaddr=0x10002680 paddr=0x00001a80 ord=075 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_USER_IsConnected
+vaddr=0x10001064 paddr=0x00000464 ord=076 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_USER_IsInOfflineMode
+vaddr=0x10005326 paddr=0x00004726 ord=077 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_USER_IsOwned
+vaddr=0x10002180 paddr=0x00001580 ord=078 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_USER_SetGameSession
+vaddr=0x10002608 paddr=0x00001a08 ord=079 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_Update
+vaddr=0x10002b03 paddr=0x00001f03 ord=080 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_WIN_GetActions
+vaddr=0x10005989 paddr=0x00004d89 ord=081 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_WIN_GetRewards
+vaddr=0x1000439a paddr=0x0000379a ord=082 fwd=NONE sz=0 bind=GLOBAL type=FUNC name=uplay_r1.dll_UPLAY_WIN_RefreshActions
+
+83 exports
+
